@@ -19,6 +19,7 @@ public class App extends Application {
     public void start(Stage stage) throws IOException {
         scene = new Scene(loadFXML("primary"), 640, 480);
         stage.setScene(scene);
+        stage.setTitle("CSC 311 Lab 1!");//will set the title, makes everything look nicer 
         stage.show();
     }
 

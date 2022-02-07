@@ -25,13 +25,13 @@ public class UserinfoController implements Initializable {
 
 
     @FXML
-    private TextField textFieldFirst;
+    private TextField textFieldFirst;//this is where the user inputs the first name
     @FXML
-    private TextField textFieldLast;
+    private TextField textFieldLast;//this is where the user inputs the last name
     @FXML
-    private Button buttonShowFullName;
+    private Button buttonShowFullName;//this is the button where an eventhandler will show the full name in an alert
     @FXML
-    private Button switchToPrimary;
+    private Button switchToPrimary;//this will switch the window back to primary 
     /**
      * Initializes the controller class.
      */
@@ -53,7 +53,7 @@ public class UserinfoController implements Initializable {
     }
 
     @FXML
-    private void switchToPrimaryView(ActionEvent event) throws IOException {//something I added, it will put you back to the primary window 
+    private void switchToPrimaryView(ActionEvent event) throws IOException {//something I added, it will put you back to the primary 
         App.setRoot("primary");
     }
 
@@ -68,7 +68,7 @@ public class UserinfoController implements Initializable {
     //this is added after I created the controller class, it says i must implement all abstract methods 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+         
     }
 
 }
